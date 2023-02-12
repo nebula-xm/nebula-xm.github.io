@@ -1,35 +1,245 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-  <title>Chris</title>
-  <meta http-equiv="keywords" content="网页设计,网站建设,课程信息">
-  <meta http-equiv="description" content="网页设计与网站建设课程网站">
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <style>
-    body {
-      background-color: #660000;
-      color: #FFF;
-    }
 
-    div.container {
-      padding: 50px 70px 20px 10px;
-    }
+  <!--- basic page needs
+   ================================================== -->
+  <meta charset="utf-8">
+  <title>XM</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    span.title {
-      font-weight: bold;
-    }
-  </style>
+  <!-- mobile specific metas
+   ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+   ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor.css">
+
+  <!-- script
+   ================================================== -->
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
+
+  <!-- favicons
+	================================================== -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
-  <div class="container">
-    <div><span class="title">网页设计与网站建设课程网站</span></div>
-    <div class="content">
-      <p>网页设计</p>
-      <p>网站建设</p>
-      <p>课程信息</p>
+<body id="top">
+
+  <!-- header 
+   ================================================== -->
+  <header>
+    <div class="row">
+
+      <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>XM</span></a>
+
+        <div class="logo">
+          <a href="index.html">XM</a>
+        </div>
+
+        <nav id="main-nav-wrap">
+          <ul class="main-navigation">
+            <li class="current"><a class="smoothscroll" href="#intro" title="">首页</a></li>
+            <li><a href="docs/" title="">博客</a></li>
+            <li><a class="smoothscroll" href="#" title="">项目</a></li>
+            <li><a class="smoothscroll" href="#about" title="">关于</a></li>
+          </ul>
+        </nav>
+      </div> <!-- /top-bar -->
+
+    </div> <!-- /row -->
+  </header> <!-- /header -->
+
+  <!-- intro section
+   ================================================== -->
+  <section id="intro">
+
+    <div class="intro-overlay"></div>
+
+    <div class="intro-content">
+      <div class="row">
+
+        <div class="col-twelve">
+
+          <h5>Aloha World.</h5>
+          <h1>海阔天空 在勇敢以后</h1>
+
+          <p class="intro-position">
+            <span>新时代农民工</span>
+            <span>C++开发工程师</span>
+          </p>
+
+          <a class="button stroke" href="docs/" title=" 博 客 ">博客</a>
+          <a class="button stroke smoothscroll" href="#about" title=" 关 于 ">关于</a>
+        </div>
+
+      </div>
+    </div> <!-- /intro-content -->
+
+    <ul class="intro-social">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    </ul> <!-- /intro-social -->
+
+  </section> <!-- /intro -->
+
+
+  <!-- about section
+   ================================================== -->
+  <section id="about">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>About</h5>
+        <h1>Let me introduce myself.</h1>
+
+        <div class="intro-info">
+
+          <img src="images/profile-pic.jpg" alt="Profile Picture">
+
+          <p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod
+            ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore
+            consectetur ea id quis eiusmod.</p>
+        </div>
+
+      </div>
+    </div> <!-- /section-intro -->
+
+    <div class="row about-content">
+
+      <div class="col-six tab-full">
+
+        <h3>Profile</h3>
+        <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur
+          nisi commodo ea magna pariatur nisi cillum.</p>
+
+        <ul class="info-list">
+          <li>
+            <strong>Fullname:</strong>
+            <span>Juan Dela Cruz</span>
+          </li>
+          <li>
+            <strong>Birth Date:</strong>
+            <span>September 28, 1987</span>
+          </li>
+          <li>
+            <strong>Job:</strong>
+            <span>Freelancer, Frontend Developer</span>
+          </li>
+          <li>
+            <strong>Website:</strong>
+            <span>www.kardswebsite.com</span>
+          </li>
+          <li>
+            <strong>Email:</strong>
+            <span>me@kardswebsite.com</span>
+          </li>
+
+        </ul> <!-- /info-list -->
+
+      </div>
+
+      <div class="col-six tab-full">
+
+        <h3>Skills</h3>
+        <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur
+          nisi commodo ea magna pariatur nisi cillum.</p>
+
+        <ul class="skill-bars">
+          <li>
+            <div class="progress percent90"><span>90%</span></div>
+            <strong>HTML5</strong>
+          </li>
+          <li>
+            <div class="progress percent85"><span>85%</span></div>
+            <strong>CSS3</strong>
+          </li>
+          <li>
+            <div class="progress percent70"><span>70%</span></div>
+            <strong>JQuery</strong>
+          </li>
+          <li>
+            <div class="progress percent95"><span>95%</span></div>
+            <strong>PHP</strong>
+          </li>
+          <li>
+
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>Wordpress</strong>
+          </li>
+
+        </ul> <!-- /skill-bars -->
+
+      </div>
+
     </div>
-    <div>
+
+    <div class="row button-section">
+      <div class="col-twelve">
+        <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+        <a href="#" title="Download CV" class="button button-primary">Download CV</a>
+      </div>
+    </div>
+
+  </section> <!-- /process-->
+
+
+  <!-- footer
+   ================================================== -->
+
+  <footer>
+    <div class="row">
+
+      <div class="col-six tab-full pull-right social">
+
+        <ul class="footer-social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-behance"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-six tab-full">
+        <div class="copyright">
+          <span>© Copyright Chris 2023.</span>
+        </div>
+      </div>
+
+      <div id="go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+      </div>
+
+    </div> <!-- /row -->
+  </footer>
+
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Java Script
+   ================================================== -->
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
